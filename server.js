@@ -62,5 +62,5 @@ app.post('/newpost', async (req, res) => {
 
 // 기타 라우트 설정
 app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, '/react-project/build/index.html'));
+  res.sendFile(path.join(__dirname, '/blog/build/index.html'));
 });
